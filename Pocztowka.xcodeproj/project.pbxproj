@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594D23781A0BEECC008D3C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D23771A0BEECC008D3C66 /* AppDelegate.swift */; };
+		594D237A1A0BEECC008D3C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D23791A0BEECC008D3C66 /* ViewController.swift */; };
+		594D237D1A0BEECC008D3C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594D237B1A0BEECC008D3C66 /* Main.storyboard */; };
+		594D237F1A0BEECC008D3C66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594D237E1A0BEECC008D3C66 /* Images.xcassets */; };
+		594D23821A0BEECC008D3C66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594D23801A0BEECC008D3C66 /* LaunchScreen.xib */; };
+		594D238E1A0BEECC008D3C66 /* PocztowkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D238D1A0BEECC008D3C66 /* PocztowkaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594D23881A0BEECC008D3C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594D236A1A0BEECB008D3C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594D23711A0BEECB008D3C66;
+			remoteInfo = Pocztowka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594D23721A0BEECC008D3C66 /* Pocztowka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pocztowka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D23761A0BEECC008D3C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D23771A0BEECC008D3C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594D23791A0BEECC008D3C66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		594D237C1A0BEECC008D3C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594D237E1A0BEECC008D3C66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		594D23811A0BEECC008D3C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		594D23871A0BEECC008D3C66 /* PocztowkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocztowkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D238C1A0BEECC008D3C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D238D1A0BEECC008D3C66 /* PocztowkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocztowkaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594D236F1A0BEECB008D3C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D23841A0BEECC008D3C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594D23691A0BEECB008D3C66 = {
+			isa = PBXGroup;
+			children = (
+				594D23741A0BEECC008D3C66 /* Pocztowka */,
+				594D238A1A0BEECC008D3C66 /* PocztowkaTests */,
+				594D23731A0BEECC008D3C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594D23731A0BEECC008D3C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594D23721A0BEECC008D3C66 /* Pocztowka.app */,
+				594D23871A0BEECC008D3C66 /* PocztowkaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594D23741A0BEECC008D3C66 /* Pocztowka */ = {
+			isa = PBXGroup;
+			children = (
+				594D23771A0BEECC008D3C66 /* AppDelegate.swift */,
+				594D23791A0BEECC008D3C66 /* ViewController.swift */,
+				594D237B1A0BEECC008D3C66 /* Main.storyboard */,
+				594D237E1A0BEECC008D3C66 /* Images.xcassets */,
+				594D23801A0BEECC008D3C66 /* LaunchScreen.xib */,
+				594D23751A0BEECC008D3C66 /* Supporting Files */,
+			);
+			path = Pocztowka;
+			sourceTree = "<group>";
+		};
+		594D23751A0BEECC008D3C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594D23761A0BEECC008D3C66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		594D238A1A0BEECC008D3C66 /* PocztowkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				594D238D1A0BEECC008D3C66 /* PocztowkaTests.swift */,
+				594D238B1A0BEECC008D3C66 /* Supporting Files */,
+			);
+			path = PocztowkaTests;
+			sourceTree = "<group>";
+		};
+		594D238B1A0BEECC008D3C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594D238C1A0BEECC008D3C66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594D23711A0BEECB008D3C66 /* Pocztowka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D23911A0BEECC008D3C66 /* Build configuration list for PBXNativeTarget "Pocztowka" */;
+			buildPhases = (
+				594D236E1A0BEECB008D3C66 /* Sources */,
+				594D236F1A0BEECB008D3C66 /* Frameworks */,
+				594D23701A0BEECB008D3C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pocztowka;
+			productName = Pocztowka;
+			productReference = 594D23721A0BEECC008D3C66 /* Pocztowka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594D23861A0BEECC008D3C66 /* PocztowkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D23941A0BEECC008D3C66 /* Build configuration list for PBXNativeTarget "PocztowkaTests" */;
+			buildPhases = (
+				594D23831A0BEECC008D3C66 /* Sources */,
+				594D23841A0BEECC008D3C66 /* Frameworks */,
+				594D23851A0BEECC008D3C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594D23891A0BEECC008D3C66 /* PBXTargetDependency */,
+			);
+			name = PocztowkaTests;
+			productName = PocztowkaTests;
+			productReference = 594D23871A0BEECC008D3C66 /* PocztowkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594D236A1A0BEECB008D3C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Agnieszka Purc";
+				TargetAttributes = {
+					594D23711A0BEECB008D3C66 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					594D23861A0BEECC008D3C66 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 594D23711A0BEECB008D3C66;
+					};
+				};
+			};
+			buildConfigurationList = 594D236D1A0BEECB008D3C66 /* Build configuration list for PBXProject "Pocztowka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594D23691A0BEECB008D3C66;
+			productRefGroup = 594D23731A0BEECC008D3C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594D23711A0BEECB008D3C66 /* Pocztowka */,
+				594D23861A0BEECC008D3C66 /* PocztowkaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594D23701A0BEECB008D3C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D237D1A0BEECC008D3C66 /* Main.storyboard in Resources */,
+				594D23821A0BEECC008D3C66 /* LaunchScreen.xib in Resources */,
+				594D237F1A0BEECC008D3C66 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D23851A0BEECC008D3C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594D236E1A0BEECB008D3C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D237A1A0BEECC008D3C66 /* ViewController.swift in Sources */,
+				594D23781A0BEECC008D3C66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D23831A0BEECC008D3C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D238E1A0BEECC008D3C66 /* PocztowkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594D23891A0BEECC008D3C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594D23711A0BEECB008D3C66 /* Pocztowka */;
+			targetProxy = 594D23881A0BEECC008D3C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594D237B1A0BEECC008D3C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594D237C1A0BEECC008D3C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594D23801A0BEECC008D3C66 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594D23811A0BEECC008D3C66 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594D238F1A0BEECC008D3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594D23901A0BEECC008D3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594D23921A0BEECC008D3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pocztowka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		594D23931A0BEECC008D3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pocztowka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		594D23951A0BEECC008D3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PocztowkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocztowka.app/Pocztowka";
+			};
+			name = Debug;
+		};
+		594D23961A0BEECC008D3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PocztowkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocztowka.app/Pocztowka";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594D236D1A0BEECB008D3C66 /* Build configuration list for PBXProject "Pocztowka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D238F1A0BEECC008D3C66 /* Debug */,
+				594D23901A0BEECC008D3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594D23911A0BEECC008D3C66 /* Build configuration list for PBXNativeTarget "Pocztowka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D23921A0BEECC008D3C66 /* Debug */,
+				594D23931A0BEECC008D3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		594D23941A0BEECC008D3C66 /* Build configuration list for PBXNativeTarget "PocztowkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D23951A0BEECC008D3C66 /* Debug */,
+				594D23961A0BEECC008D3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594D236A1A0BEECB008D3C66 /* Project object */;
+}
