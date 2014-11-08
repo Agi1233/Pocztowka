@@ -13,6 +13,8 @@
 		594D237F1A0BEECC008D3C66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594D237E1A0BEECC008D3C66 /* Images.xcassets */; };
 		594D23821A0BEECC008D3C66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594D23801A0BEECC008D3C66 /* LaunchScreen.xib */; };
 		594D238E1A0BEECC008D3C66 /* PocztowkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D238D1A0BEECC008D3C66 /* PocztowkaTests.swift */; };
+		594D23981A0C1B6A008D3C66 /* Shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594D23971A0C1B6A008D3C66 /* Shanghai.jpg */; };
+		59D8B1F81A0C83B200935FC2 /* znaczek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59D8B1F71A0C83B200935FC2 /* znaczek.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		594D23871A0BEECC008D3C66 /* PocztowkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocztowkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594D238C1A0BEECC008D3C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594D238D1A0BEECC008D3C66 /* PocztowkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocztowkaTests.swift; sourceTree = "<group>"; };
+		594D23971A0C1B6A008D3C66 /* Shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shanghai.jpg; sourceTree = "<group>"; };
+		59D8B1F71A0C83B200935FC2 /* znaczek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = znaczek.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		594D23751A0BEECC008D3C66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59D8B1F71A0C83B200935FC2 /* znaczek.jpg */,
+				594D23971A0C1B6A008D3C66 /* Shanghai.jpg */,
 				594D23761A0BEECC008D3C66 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				594D237D1A0BEECC008D3C66 /* Main.storyboard in Resources */,
+				59D8B1F81A0C83B200935FC2 /* znaczek.jpg in Resources */,
 				594D23821A0BEECC008D3C66 /* LaunchScreen.xib in Resources */,
+				594D23981A0C1B6A008D3C66 /* Shanghai.jpg in Resources */,
 				594D237F1A0BEECC008D3C66 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				594D23931A0BEECC008D3C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		594D23941A0BEECC008D3C66 /* Build configuration list for PBXNativeTarget "PocztowkaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				594D23961A0BEECC008D3C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
